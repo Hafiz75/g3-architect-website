@@ -94,6 +94,42 @@ line-height: 26px; /* 162.5% */
     flex-direction: column;
   }
 }
+/*main related style*/
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*teams related style*/
+.teams-con{
+  display: flex;
+  align-items: center;
+}
+.teams-img-con{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+.teams-content{
+  margin-left: 76px;
+}
+.teams-title{
+  font-size: 45px;
+}
+.teams-title .quick-list{
+  color: #727272;
+font-weight: 500;
+}
+.teams-title .of-our{
+color: #131313;
+font-weight: 700;
+}
+.teams-title .text-features{
+    color:  #FF900E;
+    font-weight: 700;
+}
+
+
+
 
 
 
